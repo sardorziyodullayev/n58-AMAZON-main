@@ -1,0 +1,14 @@
+.main{
+  /* width: 1440px; */
+  height: auto;
+  margin-top:  -380px;
+  z-index: 10;
+  position: relative;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;  
+}
